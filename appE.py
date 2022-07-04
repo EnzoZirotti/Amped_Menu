@@ -14,6 +14,32 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/cocktails", methods=["GET", 'POST'])
+def index():
+    return render_template("cocktails.html")
+
+
+@app.route("/coffee_tea", methods=["GET", 'POST'])
+def index():
+    return render_template("coffee_tea.html")
+
+
+@app.route("/food", methods=["GET", 'POST'])
+def index():
+    return render_template("food.html")
+
+
+@app.route("/other_drinks", methods=["GET", 'POST'])
+def index():
+    return render_template("other_drinks.html")
+
+
+@app.route("/the_green_room", methods=["GET", 'POST'])
+def index():
+    return render_template("the_green_room.html")
+
+
+
 @app.route("/predict", methods=["GET", "POST"])
 def predict():
     output = "Your value here!"
