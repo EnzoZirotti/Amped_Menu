@@ -14,27 +14,27 @@ def index():
 
 
 @app.route("/cocktails", methods=["GET", 'POST'])
-def index():
+def cocktails():
     return render_template("cocktails.html")
 
 
 @app.route("/coffee_tea", methods=["GET", 'POST'])
-def index():
+def coffee_tea():
     return render_template("coffee_tea.html")
 
 
 @app.route("/food", methods=["GET", 'POST'])
-def index():
+def food():
     return render_template("food.html")
 
 
 @app.route("/other_drinks", methods=["GET", 'POST'])
-def index():
+def other_drinks():
     return render_template("other_drinks.html")
 
 
 @app.route("/the_green_room", methods=["GET", 'POST'])
-def index():
+def the_green_room():
     return render_template("the_green_room.html")
 
 
