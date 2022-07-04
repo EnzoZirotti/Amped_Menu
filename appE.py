@@ -2,7 +2,6 @@ from flask import Flask, jsonify, render_template, request
 import joblib
 import pandas as pd
 import numpy as np
-from data_transfer import custome_transfer_func
 from imblearn.ensemble import EasyEnsembleClassifier
 from sklearn.preprocessing import StandardScaler
 
